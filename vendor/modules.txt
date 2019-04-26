@@ -1,16 +1,25 @@
+# github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
+github.com/golang/glog
 # github.com/golang/protobuf v1.3.1
 github.com/golang/protobuf/proto
 github.com/golang/protobuf/protoc-gen-go/descriptor
 github.com/golang/protobuf/ptypes/timestamp
 github.com/golang/protobuf/ptypes/wrappers
-github.com/golang/protobuf/protoc-gen-go
-github.com/golang/protobuf/protoc-gen-go/generator
-github.com/golang/protobuf/protoc-gen-go/grpc
 github.com/golang/protobuf/ptypes
-github.com/golang/protobuf/protoc-gen-go/generator/internal/remap
-github.com/golang/protobuf/protoc-gen-go/plugin
+github.com/golang/protobuf/protoc-gen-go
 github.com/golang/protobuf/ptypes/any
 github.com/golang/protobuf/ptypes/duration
+github.com/golang/protobuf/descriptor
+github.com/golang/protobuf/protoc-gen-go/generator
+github.com/golang/protobuf/protoc-gen-go/grpc
+github.com/golang/protobuf/protoc-gen-go/generator/internal/remap
+github.com/golang/protobuf/protoc-gen-go/plugin
+# github.com/google/uuid v1.0.0
+github.com/google/uuid
+# github.com/kubernetes-csi/csi-lib-utils v0.6.1
+github.com/kubernetes-csi/csi-lib-utils/protosanitizer
+# github.com/pborman/uuid v1.2.0
+github.com/pborman/uuid
 # golang.org/x/net v0.0.0-20190311183353-d8887717615a
 golang.org/x/net/trace
 golang.org/x/net/internal/timeseries
@@ -18,9 +27,9 @@ golang.org/x/net/http2
 golang.org/x/net/http2/hpack
 golang.org/x/net/http/httpguts
 golang.org/x/net/idna
-# golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a
+# golang.org/x/sys v0.0.0-20190312061237-fead79001313
 golang.org/x/sys/unix
-# golang.org/x/text v0.3.0
+# golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
 golang.org/x/text/secure/bidirule
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
@@ -29,9 +38,10 @@ golang.org/x/text/transform
 google.golang.org/genproto/googleapis/rpc/status
 # google.golang.org/grpc v1.20.1
 google.golang.org/grpc
+google.golang.org/grpc/codes
+google.golang.org/grpc/status
 google.golang.org/grpc/balancer
 google.golang.org/grpc/balancer/roundrobin
-google.golang.org/grpc/codes
 google.golang.org/grpc/connectivity
 google.golang.org/grpc/credentials
 google.golang.org/grpc/encoding
@@ -54,9 +64,22 @@ google.golang.org/grpc/resolver
 google.golang.org/grpc/resolver/dns
 google.golang.org/grpc/resolver/passthrough
 google.golang.org/grpc/stats
-google.golang.org/grpc/status
 google.golang.org/grpc/tap
 google.golang.org/grpc/balancer/base
 google.golang.org/grpc/credentials/internal
 google.golang.org/grpc/binarylog/grpc_binarylog_v1
 google.golang.org/grpc/internal/syscall
+# k8s.io/apimachinery v0.0.0-20190425132440-17f84483f500
+k8s.io/apimachinery/pkg/util/sets
+k8s.io/apimachinery/pkg/types
+# k8s.io/klog v0.3.0
+k8s.io/klog
+# k8s.io/kubernetes v1.14.1
+k8s.io/kubernetes/pkg/util/mount
+k8s.io/kubernetes/pkg/volume/util/volumepathhandler
+# k8s.io/utils v0.0.0-20190308190857-21c4ce38f2a7
+k8s.io/utils/exec
+k8s.io/utils/io
+k8s.io/utils/keymutex
+k8s.io/utils/nsenter
+k8s.io/utils/path
