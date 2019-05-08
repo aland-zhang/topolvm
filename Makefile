@@ -22,3 +22,7 @@ bin/protoc-gen-go:
 csi/csi.pb.go: csi.proto bin/protoc bin/protoc-gen-go
 	mkdir -p csi
 	PATH=$(shell pwd)/bin:$(PATH) bin/protoc -I. --go_out=$(GO_OUT) $<
+
+.PHONY: hostpath
+hostpath:
+	CGO_ENABLED=0 GOOS=linux go build -a -o _output/hostpathplugin ./pkg/hostpathplugin
